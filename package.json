@@ -6,12 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.16.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.0",
-    "ejs": "~2.5.5",
-    "express": "~4.14.1",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.2"
+    "cron": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "kue": "^0.11.5",
+    "sendgrid": "^4.8.2"
   }
 }
